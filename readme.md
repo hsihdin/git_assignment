@@ -1,35 +1,53 @@
 Calculator Program
 This is a simple calculator program written in Python. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division on two numbers.
 
+
+Functions
+### Addition
+
+```
+def addition(a, b):
+    # Add two numbers
+    return a + b
+ 
+```
+
 The addition function takes two numbers as input and returns their sum.
 
-Subtraction
-python
-Copy code
+
+### Subtraction
+
+```
 def subtraction(a, b):
     # Subtract the second number from the first number
     return a - b
+```
+
 The subtraction function takes two numbers as input and returns the result of subtracting the second number from the first number.
 
-Multiplication
-python
-Copy code
+
+### Multiplication
+
+```
 def multiplication(a, b):
     # Multiply two numbers
     return a * b
+```
+
 The multiplication function takes two numbers as input and returns their product.
 
-Division
-python
-Copy code
+
+### Division
+
+```
 def division(a, b):
     # Divide the first number by the second number
     return a / b
+    ```
 The division function takes two numbers as input and returns the result of dividing the first number by the second number.
 
 Sample Input and Output
-python
-Copy code
+```
 # Sample input
 num1 = 6
 num2 = 4
@@ -50,3 +68,4 @@ print(f"Multiplication: {num1} * {num2} = {mul_result}")
 div_result = division(num1, num2)
 print(f"Division: {num1} / {num2} = {div_result}")
 This section shows the sample input values of num1 and num2. It then performs the calculations using the defined functions and prints the results of addition, subtraction, multiplication, and division with the given sample input.
+```
