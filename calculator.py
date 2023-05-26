@@ -18,6 +18,8 @@ def division(a, b):
 num1 = 6
 num2 = 4
 
+
+
 # Perform calculations and print results
 print("Calculator Program\n")
 print(f"Sample input: {num1} and {num2}\n")
